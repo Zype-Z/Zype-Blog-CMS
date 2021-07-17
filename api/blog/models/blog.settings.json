@@ -22,18 +22,6 @@
       "type": "uid",
       "targetField": "Title"
     },
-    "MetaImage": {
-      "model": "file",
-      "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
-      "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
-    },
     "MetaDescription": {
       "type": "string"
     }
